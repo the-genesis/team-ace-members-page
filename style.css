@@ -1,1 +1,62 @@
-/*all styles in here, except whatever has to be inline.
+/* all styles in here, except whatever has to be inline. */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+/* responsiveness for smaller devices */
+@media screen and (max-width:560px){
+    #card{
+        display: block;
+        width: 60vw;
+        margin: 7vh auto;
+    }
+}
+/* responsiveness for tablets */
+@media screen and (min-width: 768px){
+    #card{
+        display: inline-block;
+        width: 35vw;
+        margin: 5vh 10vh;
+    }
+}
+
+@media all and (min-width: 992px){
+    #card{
+        display: inline-block;
+        width: 25vw;
+        margin: 10vh 0 0 10vh;
+    }  
+}
+
+body{
+    width: 100%;
+}
+.card{
+    font-family: 'Rubik', sans-serif;    display: inline-block;
+    width: 25vw;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10vh 0 0 10vh;
+    background-color: #ecebeb;
+    border-bottom: 10px solid #ff8c00;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px 0 rgb(145, 114, 94);
+}
+.img{
+    width: 100%;
+}
+.info{
+    margin: 5vh;
+}
+.info p{
+    padding-top: 2vh;
+}
+.social{
+    margin-bottom:3vh;
+}
+.social a{
+    margin-right: 1.5vw;
+}
+.social img:hover{
+    background-color: #1d1102;
+}
