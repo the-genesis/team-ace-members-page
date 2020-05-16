@@ -1,4 +1,4 @@
-## How To Contribute To This project
+# How To Contribute To This project
 
 - I am sure you have a github account by now.
 
@@ -14,7 +14,7 @@ To do this, run `git checkout -b [slack-username]`
 
 - DO NOT PUSH DIRECTLY TO THE `MASTER` BRANCH.
 
-# Editing your card
+## Editing your card
 
 Each card would be filled with demo content. Please follow the guidelines below when editing yours.
 
@@ -24,7 +24,7 @@ Each card would be filled with demo content. Please follow the guidelines below 
 
 - Please do not edit a card that hasn't been assigned to you.
 
-# PRs and merging
+## PRs and merging
 
 Once done with making changes to your card, open a pull request. Your code would be inspected and merged.
 
