@@ -1,9 +1,51 @@
-
+/*all styles in here, except whatever has to be inline.*/
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* HEADER STYLING BEGINS HERE */
+.nav-center {
+   margin:auto;
+   text-align: center;
+}
+
+.nav-content {
+    margin:auto;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    line-height: 0.2rem;
+}
+
+.nav-content h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #433C3C;
+}
+
+.nav-content a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(67, 60, 60, 0.5);
+    color: #ff8c00;
+}
+
+/* HEADER STYLING END HERE */
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) {
+
+    .nav-content {
+      
+        font-family: 'Rubik', sans-serif;
+        line-height: 0.2rem;
+    }
 }
 
 body {
@@ -72,7 +114,6 @@ section{
     border-bottom: 10px solid #ff8c00;
     transition: all .3s ease-in-out 0s;
 }
-
 
 .card:hover{
     box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, .08);
