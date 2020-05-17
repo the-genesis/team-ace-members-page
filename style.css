@@ -2,17 +2,13 @@
 
 /* HEADER STYLING BEGINS HERE */
 .nav-center {
-    float: none;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   margin:auto;
+   text-align: center;
 }
 
 .nav-content {
-    position: absolute;
-    top: 13%;
-    left: 46%;
+    margin:auto;
+    text-align: center;
     font-family: 'Rubik', sans-serif;
     line-height: 0.2rem;
 }
@@ -20,7 +16,7 @@
 .nav-content h3 {
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 36px;
     color: #433C3C;
 }
 
@@ -29,9 +25,9 @@
     text-transform: uppercase;
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 15px;
     color: rgba(67, 60, 60, 0.5);
-    margin-left: 1.3rem;
+    color: #ff8c00;
 }
 
 /* HEADER STYLING END HERE */
