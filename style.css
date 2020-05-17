@@ -7,52 +7,40 @@
 
 body{
     font-family: 'Rubik', sans-serif;
-    line-height: 4vh;
-}
-
-h1, h3 {
-    font-weight: 600%;
-}
-
-p {
-    opacity: 70%;
-}
-
-a {
-    text-decoration: none;
+    line-height: 1.9em;
+    height: 100vh;
+    background: #fafafa;
 }
 
 /*header*/
 .header {
     width: 100%;
     height: 20vh;
-    display: flex;
-    flex-direction: column;
-    flex-basis: auto;
-    justify-content: center;
-    align-items: center;
-    margin: 5vh 0 2vh;
-    background: none;
-    color: #222;
 }
 
 /*section*/
 .section {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
 }
 
 /*footer*/
 .footer {
     width: 100vw;
     height: 10vh;
-    display: flex;
-    flex-direction: column;
-    flex-basis: auto;
-    justify-content: center;
-    align-items: center;
-    padding: 2vh 0;
+    text-align: center;
+    margin: 0 auto;
+    padding: .9em 0;
     background-color: #ff8c00;
     color: #fff;
     border-radius: 90%/100px 100px 0 0;
+}
+
+.footer h3 {
+    font-weight: 600%;
+    cursor: pointer;
+}
+
+.footer p {
+    opacity: 70%;
 }
