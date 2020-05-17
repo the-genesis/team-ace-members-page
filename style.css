@@ -1,5 +1,6 @@
 
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,21 +8,14 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    line-height: 1.5em;
-    height: 100vh;
-    background: #fafafa;
 }
 
 .container {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
 }
 
-/*header*/
-.header {
-    width: 100%;
-    margin-bottom: 2em;
-}
+
 
 /*section*/
 .section {
@@ -34,69 +28,89 @@ body {
     cursor: pointer;
 }
 
-.card {
-    width: 100%;
-    height: auto;
-    margin: 1rem;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #ecebeb;
-    border-bottom: 10px solid #ff8c00;
-}
-
-.card:hover {
-    box-shadow: 5px 5px 20px 0 rgb(145, 114, 94);
-}
-
-.card .img {
-    width: 100%;
-    height: auto;
-}
-
-
-.card h2 {
-    font-size: 150%;
-    padding-bottom: 1rem;
-}
- 
-.info {
-    margin: 20px 20px 30px 20px;
-}
-
-.info p {
-    font-size: 14px;
-    padding-top: 3px;
-}
-
-.social {
-    margin-bottom:10px;
-}
-
-.social a {
-    margin-right: 7px;
-}
-
-.social img:hover {
-    background-color: #1d1102;
-}
-
 /*footer*/
 .footer {
     width: 100%;
+    padding: 50px 100px;
     text-align: center;
-    margin: 2rem auto 0; 
-    padding: .9em 0;
-    background-color: #ff8c00;
-    color: #fff;
-    border-radius: 90%/100px 100px 0 0;
-    bottom: 0;
+    background-image: url("assets/footer-bg.png");
+    background-repeat: no-repeat;
+    /*border-radius: 90%/100px 100px 0 0;*/
 }
 
 .footer h3 {
-    font-weight: 600%;
-    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .footer p {
-    opacity: 70%;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(225, 225, 225, .7);
+}
+
+/*
+section{
+    display: block;
+    text-align: center;
+    margin: 50px 0;
+}
+*/
+
+.card{
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    width: 300px;
+    padding: 10px;
+    margin: 0 20px 150px 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FCFAF8;
+    border-bottom: 10px solid #ff8c00;
+    transition: all .3s ease-in-out 0s;
+}
+
+
+.card:hover{
+    box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, .08);
+}
+
+.img{
+    width: 100%;
+}
+
+.info{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.info h2 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #433C3C;
+}
+
+.info p{
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 5px;
+    color: rgba(67, 60, 60, 0.7);
+}
+
+.social{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+    margin: 10px;
+}
+
+.social img:hover{
+    background-color: #1d1102;
 }
