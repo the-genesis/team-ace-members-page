@@ -40,9 +40,7 @@
 @media only screen and (max-width: 600px) {
 
     .nav-content {
-        position: absolute;
-        top: 13%;
-        left: 35%;
+      
         font-family: 'Rubik', sans-serif;
         line-height: 0.2rem;
     }
