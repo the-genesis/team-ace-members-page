@@ -1,39 +1,95 @@
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Rubik', sans-serif;
-    line-height: 1.9em;
+    line-height: 1.5em;
     height: 100vh;
     background: #fafafa;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
 }
 
 /*header*/
 .header {
     width: 100%;
-    height: 20vh;
+    margin-bottom: 2em;
 }
 
 /*section*/
 .section {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 2rem;
+    text-align: center;
+    margin: 3rem auto ;
+    cursor: pointer;
+}
+
+.card {
     width: 100%;
-    height: 70vh;
+    height: auto;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ecebeb;
+    border-bottom: 10px solid #ff8c00;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px 0 rgb(145, 114, 94);
+}
+
+.card .img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card h2 {
+    font-size: 150%;
+    padding-bottom: 1rem;
+}
+ 
+.info {
+    margin: 20px 20px 30px 20px;
+}
+
+.info p {
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.social {
+    margin-bottom:10px;
+}
+
+.social a {
+    margin-right: 7px;
+}
+
+.social img:hover {
+    background-color: #1d1102;
 }
 
 /*footer*/
 .footer {
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
     text-align: center;
-    margin: 0 auto;
+    margin: 2rem auto 0; 
     padding: .9em 0;
     background-color: #ff8c00;
     color: #fff;
     border-radius: 90%/100px 100px 0 0;
+    bottom: 0;
 }
 
 .footer h3 {
@@ -43,44 +99,4 @@ body{
 
 .footer p {
     opacity: 70%;
-}
-
-section{
-    display: block;
-    text-align: center;
-    margin: 50px 0;
-}
-.card{
-    display: inline-block;
-    font-family: 'Rubik', sans-serif;    display: inline-block;
-    width: 300px;
-    margin: 0 20px 100px 20px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #ecebeb;
-    border-bottom: 10px solid #ff8c00;
-}
-
-.card:hover{
-    box-shadow: 5px 5px 20px 0 rgb(145, 114, 94);
-}
-.img{
-    width: 300px;
-    height: 200px;
-}
-.info{
-    margin: 20px 20px 30px 20px;
-}
-.info p{
-    font-size: 14px;
-    padding-top: 3px;
-}
-.social{
-    margin-bottom:10px;
-}
-.social a{
-    margin-right: 7px;
-}
-.social img:hover{
-    background-color: #1d1102;
 }
