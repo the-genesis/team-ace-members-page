@@ -1,40 +1,18 @@
 /* all styles in here, except whatever has to be inline. */
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
-/* responsiveness for smaller devices */
-@media screen and (max-width:560px){
-    #card{
-        display: block;
-        width: 60vw;
-        margin: 7vh auto;
-    }
-}
-/* responsiveness for tablets */
-@media screen and (min-width: 768px){
-    #card{
-        display: inline-block;
-        width: 35vw;
-        margin: 5vh 10vh;
-    }
-}
-
-@media all and (min-width: 992px){
-    #card{
-        display: inline-block;
-        width: 25vw;
-        margin: 10vh 0 0 10vh;
-    }  
-}
-
-body{
-    width: 100%;
+section{
+    display: block;
+    text-align: center;
+    margin: 50px 0;
 }
 .card{
+    display: inline-block;
     font-family: 'Rubik', sans-serif;    display: inline-block;
-    width: 25vw;
+    width: 300px;
+    margin: 0 20px 100px 20px;
     border-radius: 5px;
     text-align: center;
-    margin: 10vh 0 0 10vh;
     background-color: #ecebeb;
     border-bottom: 10px solid #ff8c00;
 }
@@ -43,19 +21,21 @@ body{
     box-shadow: 5px 5px 20px 0 rgb(145, 114, 94);
 }
 .img{
-    width: 100%;
+    width: 300px;
+    height: 200px;
 }
 .info{
-    margin: 5vh;
+    margin: 20px 20px 30px 20px;
 }
 .info p{
-    padding-top: 2vh;
+    font-size: 14px;
+    padding-top: 3px;
 }
 .social{
-    margin-bottom:3vh;
+    margin-bottom:10px;
 }
 .social a{
-    margin-right: 1.5vw;
+    margin-right: 7px;
 }
 .social img:hover{
     background-color: #1d1102;
