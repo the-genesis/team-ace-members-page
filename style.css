@@ -74,12 +74,6 @@ body {
     margin: 6rem auto ;
 }
 
-@media (min-width: 1025px) {
-    .section {
-         grid-template-columns: repeat(3, minmax(250px, 400px));
-    }
-}
-
 /*footer*/
 .footer {
     width: 100%;
@@ -90,15 +84,6 @@ body {
     background-size: cover;
     background-position: center;
     /*border-radius: 90%/100px 100px 0 0;*/
-}
-
-@media (max-width: 767px) {
-    .footer {
-        background-image: url("assets/footer-bg-mobile.png");
-        background-size: cover;
-        padding: 20px;
-    }
-
 }
 
 .footer h3 {
@@ -168,4 +153,28 @@ body {
 
 .social img:hover{
     background-color: #1d1102;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 767px) {
+    .footer {
+        background-image: url("assets/footer-bg-mobile.png");
+        background-size: cover;
+        padding: 20px;
+    }
+
+    .container {
+        padding: 100px 10% 0 10%;
+    }
+
+    .card {
+        margin-bottom: 75px;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .section {
+         grid-template-columns: repeat(3, minmax(250px, 400px));
+    }
 }
