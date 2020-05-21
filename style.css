@@ -115,11 +115,12 @@ body {
     text-align: center;
     background-color: #FCFAF8;
     border-bottom: 10px solid #ff8c00;
-    transition: all .3s ease-in-out 0s;
+    box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, .08);
+    transition: all .7s ease-in-out 0s;
 }
 
 .card:hover{
-    box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, .08);
+    box-shadow: none;
 }
 
 .img{
